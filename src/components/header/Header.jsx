@@ -1,0 +1,48 @@
+import React, { useState, useEffect } from "react";
+import styles from "./Header.module.scss";
+import Image from "next/image";
+import state_img from "../../../public/FEHP_logo.svg";
+import { Sidebar } from "../index";
+import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
+import { useRouter } from "next/router";
+
+export default function Header() {
+	const router = useRouter();
+	const [flag, setFlag] = useState(false);
+
+	useEffect(() => {
+		setFlag(false);
+	}, [router.asPath]);
+	return (
+		<div className={styles.container}>
+			<Image src={state_img} alt='FEHP state ' width={300} height={100} />
+
+			<Sidebar />
+
+			<div
+				className={styles.menu_burger}
+				onClick={() => setFlag((prev) => !prev)}
+			>
+				{flag ? (
+					<CloseOutlined
+						style={{
+							color: "#223668",
+							width: "24px",
+							height: "24px",
+						}}
+					/>
+				) : (
+					<MenuOutlined
+						style={{
+							color: "#223668",
+							width: "24px",
+							height: "24px",
+						}}
+					/>
+				)}
+			</div>
+
+			<Sidebar isMobileVersion={true} show={flag} />
+		</div>
+	);
+}

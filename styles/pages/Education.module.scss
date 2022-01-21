@@ -1,0 +1,33 @@
+.inner_container {
+	font-size: 18px;
+	padding: 24px;
+	.main_title {
+		font-size: 28px;
+		font-family: "Tinos", serif;
+	}
+	.sub_title {
+		font-size: 20px;
+		font-family: "Montserrat", sans-serif;
+	}
+}
+.collapse_container {
+	font-size: 16px;
+	margin: 24px auto;
+	max-width: 900px;
+	font-family: "Montserrat", sans-serif;
+	ul {
+		margin-left: 20px;
+	}
+}
+.title_container {
+	text-align: center;
+}
+
+.video_container {
+	margin: 0 auto;
+	max-width: 900px;
+	margin-bottom: 24px;
+	video {
+		height: 400px !important;
+	}
+}

@@ -1,0 +1,26 @@
+.page_container {
+	padding: 24px;
+
+	.main_title {
+		font-size: 28px;
+		text-align: center;
+	}
+	.info_container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-size: 16px;
+	}
+}
+
+.collapse_container {
+	font-size: 16px;
+	max-width: 900px;
+	margin: 24px auto;
+}
+
+.hero_img {
+	span {
+		top: -100px !important;
+	}
+}

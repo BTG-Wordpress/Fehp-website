@@ -1,0 +1,36 @@
+.title_container {
+	padding: 24px;
+	text-align: center;
+}
+.main_title {
+	font-size: 28px;
+}
+.sub_title {
+	font-size: 20px;
+}
+.main_info {
+	padding: 24px;
+	font-size: 16px;
+}
+
+.text_title {
+	display: flex;
+	align-items: center;
+	.span_container {
+		flex-grow: 1;
+		margin-left: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+	span {
+		background-color: red;
+
+		height: 1px;
+		margin-bottom: 4px;
+	}
+}
+.collapse_container {
+	font-size: 16px;
+	max-width: 900px;
+	margin: 24px auto;
+}

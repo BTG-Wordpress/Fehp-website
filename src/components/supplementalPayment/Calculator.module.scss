@@ -1,0 +1,66 @@
+.inner_container {
+	display: flex;
+	justify-content: center;
+	padding: 24px 0;
+}
+.calculator_container {
+	display: flex;
+	.calculator_left_container {
+		display: flex;
+		flex-direction: column;
+		button {
+			margin-top: 24px;
+			align-self: center;
+		}
+	}
+
+	h1 {
+		font-size: 30px;
+		font-weight: 700;
+		font-family: "Tinos", serif;
+	}
+	label {
+		font-size: 20px;
+		font-family: "Montserrat", sans-serif;
+		display: block;
+		font-weight: 700;
+		margin-bottom: 12px;
+	}
+	.calculator_infos {
+		display: flex;
+		.calculator_info_year {
+			margin-right: 24px;
+		}
+	}
+
+	.calculator_right_container {
+		margin-left: 24px;
+		padding: 24px;
+		border-radius: 12px;
+		background-color: #223668;
+		.calculation_title {
+			font-family: "Montserrat", sans-serif;
+			font-weight: 700;
+			font-size: 16px;
+			color: lightgray;
+		}
+		.calculation_number {
+			font-family: "Montserrat", sans-serif;
+			font-weight: 500;
+			font-size: 20px;
+			color: white;
+		}
+	}
+}
+
+.calculator_explanation_container {
+	font-size: 18px;
+	h2 {
+		font-size: 30px;
+		color: #48576a;
+	}
+	h3 {
+		font-size: 20px;
+		color: #396d9a;
+	}
+}

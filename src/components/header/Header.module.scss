@@ -1,0 +1,42 @@
+.container {
+	width: 100vw;
+	padding: 21px 30px 12px 30px;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color: #f0f0f0;
+	.title_container {
+		font-size: 27px;
+		display: inline-block;
+		font-family: "Tinos", serif;
+		font-weight: 700;
+		color: #223668;
+
+		@media only screen and (max-width: 800px) {
+			font-size: 20px;
+			margin-left: 12px;
+		}
+	}
+	@media only screen and (max-width: 800px) {
+		left: 0;
+		width: 100vw;
+		padding-right: 24px;
+		.title_container {
+			width: auto;
+		}
+		.menu_burger {
+			display: block;
+			margin-left: auto;
+		}
+	}
+}
+.menu_burger {
+	cursor: pointer;
+	display: none;
+	background-color: white;
+	height: 24px;
+	z-index: 1000;
+}
