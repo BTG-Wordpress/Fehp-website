@@ -69,7 +69,13 @@ export default function Sidebar({ isMobileVersion = false, show }) {
 					<a> NEWS</a>
 				</Link>
 			</div>
-			<div className={styles.link}>
+			<div
+				className={
+					router.pathname == "/state_resources"
+						? `${styles.active} ${styles.link}`
+						: styles.link
+				}
+			>
 				<Link href='/state_resources'>
 					<a> RESOURCES</a>
 				</Link>
