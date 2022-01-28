@@ -7,7 +7,6 @@ import Link from "next/link";
 import styles from "../styles/pages/Home.module.scss";
 import ReactModal from "react-modal";
 import Image from "next/image";
-import hero_sec_img from "../public/home.jpeg";
 import { CloseOutlined } from "@ant-design/icons";
 // ------------------------
 
@@ -26,7 +25,7 @@ export default function Home() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src={hero_sec_img}
+					src='https://website-content.nyc3.digitaloceanspaces.com/images/home.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'

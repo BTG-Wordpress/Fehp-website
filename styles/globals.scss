@@ -100,3 +100,19 @@ main {
 	right: 12px;
 	top: 12px;
 }
+.country-selector a {
+	color: white !important;
+}
+.wgcurrent {
+	background-color: #223668;
+}
+
+.wgcurrent ul {
+	background: #223668;
+}
+.wg-li {
+	background: #223668;
+}
+.wg-drop.country-selector .wgcurrent:after {
+	display: none !important;
+}

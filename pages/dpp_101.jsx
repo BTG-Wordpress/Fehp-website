@@ -2,7 +2,6 @@ import React from "react";
 // components
 import Image from "next/image";
 import { Layout } from "../src/components/index";
-import hero_sec_img from "../public/dpp-hero.jpeg";
 import { Collapse } from "antd";
 import styles from "../styles/pages/Education.module.scss";
 const { Panel } = Collapse;
@@ -18,7 +17,7 @@ export default function Education() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src={hero_sec_img}
+					src='https://website-content.nyc3.digitaloceanspaces.com/images/dpp-hero.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'
@@ -32,7 +31,10 @@ export default function Education() {
 					<div className={styles.video_container}>
 						{" "}
 						<video height='400' controls>
-							<source src='Florida DPP V2.mp4' type='video/mp4' />
+							<source
+								src='https://website-content.nyc3.digitaloceanspaces.com/videos/Florida%20DPP%20V2.mp4'
+								type='video/mp4'
+							/>
 							Your browser does not support the video tag.
 						</video>
 					</div>

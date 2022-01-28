@@ -3,6 +3,7 @@ import styles from "./Header.module.scss";
 import Image from "next/image";
 import state_img from "../../../public/FEHP_logo.svg";
 import { Sidebar } from "../index";
+import Link from "next/link";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
 import { useRouter } from "next/router";
 
@@ -15,8 +16,17 @@ export default function Header() {
 	}, [router.asPath]);
 	return (
 		<div className={styles.container}>
-			<Image src={state_img} alt='FEHP state ' width={300} height={100} />
-
+			<Link href='/'>
+				<div style={{ cursor: "pointer" }}>
+					{" "}
+					<Image
+						src={state_img}
+						alt='FEHP state '
+						width={300}
+						height={100}
+					/>
+				</div>
+			</Link>
 			<Sidebar />
 
 			<div

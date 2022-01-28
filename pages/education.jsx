@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { Layout } from "../src/components/index";
 import faq_img1 from "../public/medical_101.jpeg";
-import hero_sec_img from "../public/education.jpeg";
+
 import { Collapse } from "antd";
 import styles from "../styles/pages/Education.module.scss";
 const { Panel } = Collapse;
@@ -18,7 +18,7 @@ export default function Education() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src={hero_sec_img}
+					src='https://website-content.nyc3.digitaloceanspaces.com/images/education.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'

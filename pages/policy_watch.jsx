@@ -2,7 +2,7 @@ import React from "react";
 // components
 import Image from "next/image";
 import { Layout } from "../src/components/index";
-import hero_sec_img from "../public/policy_watch.jpeg";
+
 import styles from "../styles/pages/PolicyWatch.module.scss";
 
 // ------------------------
@@ -14,7 +14,7 @@ export default function HospitalMap() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src={hero_sec_img}
+					src='https://website-content.nyc3.digitaloceanspaces.com/images/policy_watch.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'

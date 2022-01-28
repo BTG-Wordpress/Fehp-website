@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { Layout } from "../src/components/index";
 
-import hero_sec_img from "../public/contact.jpeg";
 import ContactForm from "../src/components/contactPage/ContactForm";
 import styles from "../styles/pages/Contact.module.scss";
 import { Collapse } from "antd";
@@ -19,7 +18,7 @@ export default function Contact() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src={hero_sec_img}
+					src='https://website-content.nyc3.digitaloceanspaces.com/images/contact.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'
