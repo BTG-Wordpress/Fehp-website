@@ -64,7 +64,6 @@ const ContactForm = () => {
 		setLoading(true);
 		const result = await UseContactUs(values);
 		handleSubmission(result);
-		console.log("after submission");
 		setLoading(false);
 	}, [form, handleSubmission]);
 

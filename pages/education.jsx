@@ -86,7 +86,7 @@ export default function Education() {
 							state budgets. Federal Medicaid matching funds are
 							the largest source of federal revenue (55.1%) in
 							state budgets. Accounting for state and federal
-							funds, Medicaid accounts of 26.5% of total state
+							funds, Medicaid accounts for 26.5% of total state
 							spending. Nationally, Medicaid pays for 1 in 6
 							dollars in the healthcare system and 1 in 2 dollars
 							in long-term services and support. <br />

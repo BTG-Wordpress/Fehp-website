@@ -1,35 +1,35 @@
-import nodemailer from "nodemailer";
+const sgMail = require("@sendgrid/mail");
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 export default async (req, res) => {
-	const { name, email, message, phone } = req.body;
-	console.log(req.body);
-	const transporter = nodemailer.createTransport({
-		host: "smtp.gmail.com",
-		port: 465,
-		secure: true,
-		auth: {
-			user: "boyanliuu@gmail.com",
-			pass: "Ihcivyny123",
-		},
-	});
+	const { firstName, lastName, email, message, organizationName } =
+		req.body.input;
+	const formatMessage = `
+	Organization Name: ${organizationName === "" ? "none" : organizationName}\r\n
+	First Name: ${firstName}\r\n
+	Last Name: ${lastName}\r\n
+	Email: ${email}\r\n
+	message: ${message}\r\n
+	
+	`;
 
-	try {
-		const emailRes = await transporter.sendMail({
-			from: email,
-			to: "lbyybl1996@gmail.com",
-			subject: `Contact form submission from ${name}`,
-			html: `<p>You have a new contact form submission</p><br>
-		  <p><strong>Name: </strong> ${name} </p><br>
-		  <p><strong>Phone: </strong> ${phone} </p><br>
-		  <p><strong>Message: </strong> ${message} </p><br>
+	const msg = {
+		to: "fehp@fehp.org", // Change to your recipient
+		from: "hello@fehp.org", // Change to your verified sender
+		subject: "New FEHP Message",
+		text: formatMessage,
+		html: formatMessage.replace(/\r\n/g, "<br/>"),
+	};
 
-		  `,
+	sgMail
+		.send(msg)
+		.then(() => {
+			console.log("Email sent");
+		})
+		.catch((error) => {
+			return res
+				.status(error.statusCode || 500)
+				.json({ error: error.message });
 		});
 
-		console.log("Message Sent");
-		console.log(emailRes);
-	} catch (err) {
-		console.log(err);
-	}
-
-	res.status(200).json(req.body);
+	return res.status(200).json({ error: "" });
 };

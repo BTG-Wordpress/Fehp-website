@@ -89,7 +89,7 @@ export default function Education() {
 							Provider Participation Fund (LPPF) and is matched
 							with federal funds to provide Florida hospitals with
 							supplemental Medicaid reimbursement to offset the
-							shortfall. 17
+							shortfall.
 						</p>
 						<div
 							style={{
