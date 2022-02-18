@@ -99,15 +99,18 @@ export default function Education() {
 							flexibility to use funding from transfers from local
 							governments (intergovernmental transfers) or revenue
 							collected from provider taxes and fees to help
-							finance the state share of Medicaid. All states
+							finance the state share of Medicaid. Provider taxes
+							can also be known as assessments, fees, or mandatory
+							payments, and can vary in structure in accordance
+							with state law requirements. However, federal law
+							requires that, whatever the name and local
+							variation, all such collections from providers must
+							be must be broad-based, uniformly applied, and the
+							collecting governmental entity may not take any
+							action to offset the costs of these payments or
+							otherwise hold the providers harmless. All states
 							(except Alaska) have at least one provider tax in
-							place, and many states have more than three.
-							Provider taxes can also be known as assessments,
-							fees, or mandatory payments—however regardless of
-							name, all must be broad-based, uniform manner, where
-							the governmental entity does not take any action to
-							offset the costs of these payments or otherwise hold
-							the providers harmless.
+							place, and many states have more than three. .
 						</p>
 						<a
 							href='https://www.kff.org/medicaid/issue-brief/medicaid-financing-the-basics/'

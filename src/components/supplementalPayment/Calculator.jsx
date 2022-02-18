@@ -218,12 +218,14 @@ export default function Calculator() {
 						are funded through state legislative appropriations, as
 						are some supplemental payments. However, many states
 						fund part of their Medicaid programs through local
-						governmental entities such as cities, counties, hospital
-						districts, and Local Provider Participation Funds
-						(LPPFs). In such cases, the “state” portion of the
-						Medicaid payment is sent to the state from the local
-						entity by means of an on-line Inter- Governmental
-						Transfer (IGT).
+						governmental entities such as cities, counties, and
+						hospital districts, These local governmental entities
+						may implement Local Provider Participation Funds (LPPFs)
+						or take other measures to raise funds allocated to
+						support the nonfederal share of the Medicaid program. In
+						such cases, the “state” portion of the Medicaid payment
+						is sent to the state from the local entity by means of
+						an on-line Inter- Governmental Transfer (IGT).
 					</p>{" "}
 					<h2>The Basic Formulas Revisited:</h2>{" "}
 					<h3>MEDICAID PAYMENT = STATE $ / (1 – FMAP)</h3>{" "}

@@ -54,7 +54,12 @@ export default function Education() {
 							<br />
 							The Hospital Medicaid DPP is a supplemental payment
 							program that provides essential funding to hospitals
-							in Florida.
+							in Florida.{" "}
+							<span>
+								The DPP must be reauthorized by the state and
+								federal governments each year in order to
+								continue.
+							</span>
 						</p>
 					</Panel>
 					<Panel header='Why is the Medicaid DPP important?' key='2'>

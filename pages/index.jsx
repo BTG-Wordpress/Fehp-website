@@ -56,10 +56,10 @@ export default function Home() {
 						Nonpublic hospitals not only provide vital health care
 						services, but they also provide the local community with
 						thousands of jobs and millions of dollars in economic
-						activity. Implementation of the Medicaid DPP will help
-						support the financial stability and viability of Florida
-						hospitals and the access to health care they provide
-						Floridians.
+						activity. Implementation of the Medicaid Directed
+						Payment Program (DPP) will help support the financial
+						stability and viability of Florida hospitals and the
+						access to health care they provide Floridians.
 						<br />
 						<br />
 						The DPP has been endorsed by Governor DeSantis and
