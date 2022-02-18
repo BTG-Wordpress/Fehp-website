@@ -219,7 +219,7 @@ export default function Calculator() {
 						are some supplemental payments. However, many states
 						fund part of their Medicaid programs through local
 						governmental entities such as cities, counties, and
-						hospital districts, These local governmental entities
+						hospital districts. These local governmental entities
 						may implement Local Provider Participation Funds (LPPFs)
 						or take other measures to raise funds allocated to
 						support the nonfederal share of the Medicaid program. In
