@@ -75,7 +75,7 @@ export default function Home() {
 						care and medical service.
 					</p>
 					<span className='content-text'>
-						Donald Lee, Acting President
+						Donald Lee, President
 					</span>
 
 					<br />
