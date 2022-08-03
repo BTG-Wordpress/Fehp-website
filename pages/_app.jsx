@@ -17,6 +17,20 @@ function App({ Component, pageProps }) {
 		<>
 			<Script src='https://cdn.weglot.com/weglot.min.js' />
 
+			{/* Google tag (gtag.js) */}
+			<Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-ZR50Q16JBQ`} />
+
+			<Script strategy="lazyOnload">
+				{`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-ZR50Q16JBQ', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+			</Script>
+
 			<Component {...pageProps} />
 		</>
 	);
