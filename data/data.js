@@ -105,6 +105,20 @@ const stateInfo = [
 		resolutionPassed: "Oct. 5, 2021",
 		countyWebsite: "https://www.miamidade.gov/global/home.page",
 	},
+	{		
+		county: "Lake",
+		region: 3,
+		ordinancePassed: "Jan. 4, 2022",
+		resolutionPassed: "Sept. 13, 2022",
+		countyWebsite: "https://www.lakecountyfl.gov/",
+	}, 
+	{		
+		county: "Osceola",
+		region: 7,
+		ordinancePassed: "June 06, 2022",
+		resolutionPassed: "Sept. 19, 2022",
+		countyWebsite: "https://www.osceola.org/",
+	},
 ];
 
 export { stateInfo };

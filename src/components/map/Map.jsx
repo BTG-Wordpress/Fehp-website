@@ -70,6 +70,14 @@ export default function Map({ stateData, countiesData }) {
 			"Local Resource": "https://www.baycountyfl.gov/",
 		},
 		{
+			key: 15,
+			LPPF: "Lake",
+			Region: 3,
+			"Ordinance Passed": "01/04/2022",
+			"Resolution Passed": "09/13/2022",
+			"Local Resource": "https://www.lakecountyfl.gov/",
+		}, 
+		{
 			key: 8,
 			LPPF: "Brevard",
 			Region: 7,
@@ -164,6 +172,14 @@ export default function Map({ stateData, countiesData }) {
 			"Ordinance Passed": "09/01/2021",
 			"Resolution Passed": "10/05/2021",
 			"Local Resource": "https://www.miamidade.gov/global/home.page",
+		},
+		{
+			key: 16,
+			LPPF: "Osceola",
+			Region: 7,
+			"Ordinance Passed": "06/06/2022",
+			"Resolution Passed": "09/19/2022",
+			"Local Resource": "https://www.osceola.org/",
 		},
 		{
 			key: 9,
@@ -359,8 +375,9 @@ export default function Map({ stateData, countiesData }) {
 			render: (text, e) => {
 				let name = e.LPPF;
 				let url = `${name} County Passed Ordinance.pdf`;
-				if (name === "Duval");
-				url = `COJ Passed Ordinance.pdf`;
+				if (name === "Duval") {
+					url = `COJ Passed Ordinance.pdf`;
+				}
 
 				return (
 					<a href={url} target='_blank'>
@@ -375,8 +392,9 @@ export default function Map({ stateData, countiesData }) {
 			dataIndex: "Resolution Passed",
 			render: (text, e) => {
 				let name = e.LPPF;
-				if (name === "Duval");
-				name = "COJ";
+				if (name === "Duval") {
+					name = "COJ";
+				}
 				const url = `${name} Passed Resolution.pdf`;
 				return (
 					<a href={url} target='_blank'>
