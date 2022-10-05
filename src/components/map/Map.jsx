@@ -66,7 +66,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Bay",
 			Region: 2,
 			"Ordinance Passed": "08/17/2021",
-			"Resolution Passed": "09/21/2021",
+			"Resolution Passed": "09/20/2022",
 			"Local Resource": "https://www.baycountyfl.gov/",
 		},
 		{
@@ -76,13 +76,13 @@ export default function Map({ stateData, countiesData }) {
 			"Ordinance Passed": "01/04/2022",
 			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://www.lakecountyfl.gov/",
-		}, 
+		},
 		{
 			key: 8,
 			LPPF: "Brevard",
 			Region: 7,
 			"Ordinance Passed": "05/18/2021",
-			"Resolution Passed": "09/14/2021",
+			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://www.brevardfl.gov/eGovernment",
 		},
 		{
@@ -90,7 +90,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Charlotte",
 			Region: 8,
 			"Ordinance Passed": "07/13/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.charlottecountyfl.gov/",
 		},
 		{
@@ -98,7 +98,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Citrus",
 			Region: 3,
 			"Ordinance Passed": "09/14/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.citrusbocc.com/",
 		},
 		{
@@ -106,7 +106,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Clay",
 			Region: 4,
 			"Ordinance Passed": "06/22/2021",
-			"Resolution Passed": "09/14/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.claycountygov.com/",
 		},
 		{
@@ -114,7 +114,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Collier",
 			Region: 8,
 			"Ordinance Passed": "06/22/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.colliercountyfl.gov/",
 		},
 		{
@@ -130,7 +130,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Escambia",
 			Region: 1,
 			"Ordinance Passed": "04/22/2021",
-			"Resolution Passed": "09/02/2021",
+			"Resolution Passed": "09/22/2022",
 			"Local Resource": "https://myescambia.com/",
 		},
 		{
@@ -138,7 +138,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Hernando",
 			Region: 3,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.hernandocounty.us/",
 		},
 		{
@@ -146,7 +146,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Indian River",
 			Region: 9,
 			"Ordinance Passed": "09/14/2021",
-			"Resolution Passed": "09/21/2021",
+			"Resolution Passed": "09/20/2022",
 			"Local Resource": "https://www.ircgov.com/",
 		},
 		{
@@ -154,7 +154,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Leon",
 			Region: 2,
 			"Ordinance Passed": "09/14/2021",
-			"Resolution Passed": "09/14/2021",
+			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://cms.leoncountyfl.gov/",
 		},
 		{
@@ -162,7 +162,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Marion",
 			Region: 3,
 			"Ordinance Passed": "07/06/2021",
-			"Resolution Passed": "09/14/2021",
+			"Resolution Passed": "09/20/2022",
 			"Local Resource": "https://www.marionfl.org/",
 		},
 		{
@@ -170,7 +170,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Miami-Dade",
 			Region: 11,
 			"Ordinance Passed": "09/01/2021",
-			"Resolution Passed": "10/05/2021",
+			"Resolution Passed": "09/01/2022",
 			"Local Resource": "https://www.miamidade.gov/global/home.page",
 		},
 		{
@@ -186,7 +186,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Orange",
 			Region: 7,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2022",
 			"Local Resource": "https://www.orangecountyfl.net/",
 		},
 		{
@@ -194,7 +194,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Palm Beach",
 			Region: 9,
 			"Ordinance Passed": "08/26/2021",
-			"Resolution Passed": "09/14/2021",
+			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://discover.pbcgov.org/Pages/default.aspx",
 		},
 	];
