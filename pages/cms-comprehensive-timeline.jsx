@@ -78,7 +78,7 @@ export default function CmsComprehensiveTimeline() {
                         </blockquote>
                         <h3>2019</h3>
                         <blockquote>
-                            <p><strong><a href="https://tehp.org/wp-content/uploads/2023/03/Kristin-Fan-Email-4.10.19.pdf" target="_blank" rel="noreferrer noopener">CMS confirms that it does not have statutory authority to address private mitigation agreements</a></strong> in response to an email from Barbara Eyman.</p>
+                            <p><strong><a href="https://tehp.org/wp-content/uploads/2023/04/Kristin-Fan-Email-4.27.23.pdf" target="_blank" rel="noreferrer noopener">CMS confirms that it does not have statutory authority to address private mitigation agreements</a></strong> in an email response.</p>
                             <p><strong><a rel="noreferrer noopener" href="https://tehp.org/wp-content/uploads/2023/03/MFAR-FULL-TEXT-RULE.pdf" target="_blank">CMS proposes the Medicaid Program; Medicaid Fiscal Accountability Regulation</a></strong>, 84 Fed. Reg. 63722 (Nov. 18, 2019) (MFAR), that would change the standard for determining whether a hold harmless exists. Language in the preamble indicated that CMS intended this revision to remove the requirement for State action.</p>
                         </blockquote>
                         <h3>2020</h3>
