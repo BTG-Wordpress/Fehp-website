@@ -73,9 +73,9 @@ export default function Map({ stateData, countiesData }) {
 			key: 15,
 			LPPF: "Lake",
 			Region: 3,
-			"Ordinance Passed": "01/04/2022",
+			"Ordinance Passed": "04/13/2022",
 			"Resolution Passed": "09/13/2022",
-			"Local Resource": "https://www.lakecountyfl.gov/",
+			"Local Resource": "https://www.lakecountyfl.gov/home",
 		},
 		{
 			key: 8,
@@ -176,9 +176,9 @@ export default function Map({ stateData, countiesData }) {
 		{
 			key: 16,
 			LPPF: "Osceola",
-			Region: 7,
+			Region: 9,
 			"Ordinance Passed": "06/06/2022",
-			"Resolution Passed": "09/19/2022",
+			"Resolution Passed": "09/01/2022",
 			"Local Resource": "https://www.osceola.org/",
 		},
 		{
@@ -196,6 +196,38 @@ export default function Map({ stateData, countiesData }) {
 			"Ordinance Passed": "08/26/2021",
 			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://discover.pbcgov.org/Pages/default.aspx",
+		},
+		{
+			key: 17,
+			LPPF: "Volusia",
+			Region: 4,
+			"Ordinance Passed": "05/17/2022",
+			"Resolution Passed": "10/18/2022",
+			"Local Resource": "https://www.volusia.org/",
+		},
+		{
+			key: 18,
+			LPPF: "Polk",
+			Region: 6,
+			"Ordinance Passed": "05/03/2022",
+			"Resolution Passed": "09/20/2022",
+			"Local Resource": "https://www.polk-county.net/",
+		},
+		{
+			key: 19,
+			LPPF: "Hillsborough",
+			Region: 6,
+			"Ordinance Passed": "07/08/2022",
+			"Resolution Passed": "11/03/2022",
+			"Local Resource": "https://www.hillsboroughcounty.org/",
+		},
+		{
+			key: 20,
+			LPPF: "Broward",
+			Region: 10,
+			"Ordinance Passed": "04/13/2022",
+			"Resolution Passed": "10/18/2022",
+			"Local Resource": "https://www.broward.org/Pages/Welcome.aspx",
 		},
 	];
 	const [idMap, setIdMap] = useState(() => {
