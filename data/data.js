@@ -39,7 +39,7 @@ const stateInfo = [
 		county: "Hernando",
 		region: 3,
 		ordinancePassed: "Aug. 24, 2021",
-		resolutionPassed: "Sept. 27, 2022",
+		resolutionPassed: "Oct. 04, 2022",
 		countyWebsite: "https://www.hernandocounty.us/",
 	},
 	{
@@ -53,7 +53,7 @@ const stateInfo = [
 		county: "Duval",
 		region: 4,
 		ordinancePassed: "Aug. 24, 2021",
-		resolutionPassed: "Sept. 28, 2021",
+		resolutionPassed: "Sept. 27, 2021",
 		countyWebsite: "https://www.coj.net/",
 	},
 	{
@@ -81,7 +81,7 @@ const stateInfo = [
 		county: "Charlotte",
 		region: 8,
 		ordinancePassed: "July 13, 2021",
-		resolutionPassed: "Sept. 27, 2022",
+		resolutionPassed: "Oct. 25, 2022",
 		countyWebsite: "https://www.charlottecountyfl.gov/",
 	},
 	{
@@ -130,21 +130,21 @@ const stateInfo = [
 		county: "Hillsborough",
 		region: 6,
 		ordinancePassed: "July 8, 2022",
-		resolutionPassed: "Nov. 3, 2022",
+		resolutionPassed: "Nov. 16, 2022",
 		countyWebsite: "https://www.hillsboroughcounty.org/",
 	},
 	{
 		county: "Osceola",
 		region: 9,
 		ordinancePassed: "June 6, 2022",
-		resolutionPassed: "Sept. 1, 2022",
+		resolutionPassed: "Sept. 19, 2022",
 		countyWebsite: "https://www.osceola.org/",
 	},
 	{
 		county: "Broward",
 		region: 10,
 		ordinancePassed: "April 13, 2022",
-		resolutionPassed: "Oct. 18, 2022",
+		resolutionPassed: "Sept. 20, 2022",
 		countyWebsite: "https://www.broward.org/Pages/Welcome.aspx",
 	},
 ];

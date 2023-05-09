@@ -90,7 +90,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Charlotte",
 			Region: 8,
 			"Ordinance Passed": "07/13/2021",
-			"Resolution Passed": "09/27/2022",
+			"Resolution Passed": "10/25/2022",
 			"Local Resource": "https://www.charlottecountyfl.gov/",
 		},
 		{
@@ -122,7 +122,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Duval",
 			Region: 4,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/27/2021",
 			"Local Resource": "https://www.coj.net/",
 		},
 		{
@@ -138,7 +138,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Hernando",
 			Region: 3,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/27/2022",
+			"Resolution Passed": "10/04/2022",
 			"Local Resource": "https://www.hernandocounty.us/",
 		},
 		{
@@ -178,7 +178,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Osceola",
 			Region: 9,
 			"Ordinance Passed": "06/06/2022",
-			"Resolution Passed": "09/01/2022",
+			"Resolution Passed": "09/19/2022",
 			"Local Resource": "https://www.osceola.org/",
 		},
 		{
@@ -218,7 +218,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Hillsborough",
 			Region: 6,
 			"Ordinance Passed": "07/08/2022",
-			"Resolution Passed": "11/03/2022",
+			"Resolution Passed": "11/16/2022",
 			"Local Resource": "https://www.hillsboroughcounty.org/",
 		},
 		{
@@ -226,10 +226,11 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Broward",
 			Region: 10,
 			"Ordinance Passed": "04/13/2022",
-			"Resolution Passed": "10/18/2022",
+			"Resolution Passed": "09/20/2022",
 			"Local Resource": "https://www.broward.org/Pages/Welcome.aspx",
 		},
 	];
+
 	const [idMap, setIdMap] = useState(() => {
 		const res = {};
 		for (let i of data) {
