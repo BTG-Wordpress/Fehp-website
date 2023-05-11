@@ -53,7 +53,7 @@ const stateInfo = [
 		county: "Duval",
 		region: 4,
 		ordinancePassed: "Aug. 24, 2021",
-		resolutionPassed: "Sept. 27, 2021",
+		resolutionPassed: "Sept. 28, 2021",
 		countyWebsite: "https://www.coj.net/",
 	},
 	{

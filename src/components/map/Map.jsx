@@ -122,7 +122,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Duval",
 			Region: 4,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/27/2021",
+			"Resolution Passed": "09/28/2021",
 			"Local Resource": "https://www.coj.net/",
 		},
 		{
@@ -428,7 +428,10 @@ export default function Map({ stateData, countiesData }) {
 				if (name === "Duval") {
 					name = "COJ";
 				}
-				const url = `${name} Passed Resolution.pdf`;
+				let url = `${name} Resolution 2022.pdf`;
+				if (name === "COJ") {
+					url = `${name} Ordinance 2022.pdf`;
+				}
 				return (
 					<a href={url} target='_blank'>
 						{text}
