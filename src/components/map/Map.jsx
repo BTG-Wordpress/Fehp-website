@@ -229,7 +229,18 @@ export default function Map({ stateData, countiesData }) {
 			"Resolution Passed": "09/20/2022",
 			"Local Resource": "https://www.broward.org/Pages/Welcome.aspx",
 		},
-	];
+	].sort((a, b) => {
+		let a_name = a.LPPF;
+		if (a_name === "Duval") {
+			a_name = "City of Jacksonville";
+		}
+		let b_name = b.LPPF;
+		if (b_name === "Duval") {
+			b_name = "City of Jacksonville";
+		}
+		return a_name.localeCompare(b_name)
+	})
+
 
 	const [idMap, setIdMap] = useState(() => {
 		const res = {};
