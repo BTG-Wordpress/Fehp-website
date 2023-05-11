@@ -122,7 +122,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Duval",
 			Region: 4,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/28/2022",
 			"Local Resource": "https://www.coj.net/",
 		},
 		{
