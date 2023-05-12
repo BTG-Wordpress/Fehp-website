@@ -34,21 +34,7 @@ export default function Contact() {
 				<Collapse className={styles.collapse_container}>
 					<Panel header='About' key='1'>
 						<p>
-							Florida Essential Healthcare Partnerships (FEHP) is
-							a 501(c)(3) advocacy and education non-profit
-							organization created to support sound Medicaid
-							policy with a key focus on Medicaid supplemental
-							payments and Medicaid managed care directed payment
-							programs. FEHP was created to advocate and educate
-							members on issues impacting Medicaid financing,
-							including changes in legislation, regulations and
-							guidance from federal and state government, and
-							opportunities for additional reimbursement. FEHP
-							supports policies that strengthen the health care
-							safety-net system, and improve access to, and the
-							availability, delivery, efficiency, and funding of,
-							quality healthcare services within the State of
-							Florida.
+							Florida Essential Healthcare Partnerships (FEHP) is a 501(c)(4) advocacy and education non-profit organization created to support sound Medicaid policy with a key focus on Medicaid supplemental payments and Medicaid managed care directed payment programs. FEHP was created to advocate and educate members on issues impacting Medicaid financing, including changes in legislation, regulations and guidance from federal and state government, and opportunities for additional reimbursement. FEHP supports policies that strengthen the health care safety-net system, and improve access to, and the availability, delivery, efficiency, and funding of, quality healthcare services within the State of Florida.
 						</p>
 					</Panel>
 					<Panel header='FEHP Board' key='2'>

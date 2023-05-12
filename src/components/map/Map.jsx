@@ -73,9 +73,9 @@ export default function Map({ stateData, countiesData }) {
 			key: 15,
 			LPPF: "Lake",
 			Region: 3,
-			"Ordinance Passed": "01/04/2022",
+			"Ordinance Passed": "04/13/2022",
 			"Resolution Passed": "09/13/2022",
-			"Local Resource": "https://www.lakecountyfl.gov/",
+			"Local Resource": "https://www.lakecountyfl.gov/home",
 		},
 		{
 			key: 8,
@@ -90,7 +90,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Charlotte",
 			Region: 8,
 			"Ordinance Passed": "07/13/2021",
-			"Resolution Passed": "09/27/2022",
+			"Resolution Passed": "10/25/2022",
 			"Local Resource": "https://www.charlottecountyfl.gov/",
 		},
 		{
@@ -122,7 +122,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Duval",
 			Region: 4,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/28/2021",
+			"Resolution Passed": "09/28/2022",
 			"Local Resource": "https://www.coj.net/",
 		},
 		{
@@ -138,7 +138,7 @@ export default function Map({ stateData, countiesData }) {
 			LPPF: "Hernando",
 			Region: 3,
 			"Ordinance Passed": "08/24/2021",
-			"Resolution Passed": "09/27/2022",
+			"Resolution Passed": "10/04/2022",
 			"Local Resource": "https://www.hernandocounty.us/",
 		},
 		{
@@ -176,7 +176,7 @@ export default function Map({ stateData, countiesData }) {
 		{
 			key: 16,
 			LPPF: "Osceola",
-			Region: 7,
+			Region: 9,
 			"Ordinance Passed": "06/06/2022",
 			"Resolution Passed": "09/19/2022",
 			"Local Resource": "https://www.osceola.org/",
@@ -197,7 +197,51 @@ export default function Map({ stateData, countiesData }) {
 			"Resolution Passed": "09/13/2022",
 			"Local Resource": "https://discover.pbcgov.org/Pages/default.aspx",
 		},
-	];
+		{
+			key: 17,
+			LPPF: "Volusia",
+			Region: 4,
+			"Ordinance Passed": "05/17/2022",
+			"Resolution Passed": "10/18/2022",
+			"Local Resource": "https://www.volusia.org/",
+		},
+		{
+			key: 18,
+			LPPF: "Polk",
+			Region: 6,
+			"Ordinance Passed": "05/03/2022",
+			"Resolution Passed": "09/20/2022",
+			"Local Resource": "https://www.polk-county.net/",
+		},
+		{
+			key: 19,
+			LPPF: "Hillsborough",
+			Region: 6,
+			"Ordinance Passed": "07/08/2022",
+			"Resolution Passed": "11/16/2022",
+			"Local Resource": "https://www.hillsboroughcounty.org/",
+		},
+		{
+			key: 20,
+			LPPF: "Broward",
+			Region: 10,
+			"Ordinance Passed": "04/13/2022",
+			"Resolution Passed": "09/20/2022",
+			"Local Resource": "https://www.broward.org/Pages/Welcome.aspx",
+		},
+	].sort((a, b) => {
+		let a_name = a.LPPF;
+		if (a_name === "Duval") {
+			a_name = "City of Jacksonville";
+		}
+		let b_name = b.LPPF;
+		if (b_name === "Duval") {
+			b_name = "City of Jacksonville";
+		}
+		return a_name.localeCompare(b_name)
+	})
+
+
 	const [idMap, setIdMap] = useState(() => {
 		const res = {};
 		for (let i of data) {
@@ -395,7 +439,10 @@ export default function Map({ stateData, countiesData }) {
 				if (name === "Duval") {
 					name = "COJ";
 				}
-				const url = `${name} Passed Resolution.pdf`;
+				let url = `${name} Resolution 2022.pdf`;
+				if (name === "COJ") {
+					url = `${name} Ordinance 2022.pdf`;
+				}
 				return (
 					<a href={url} target='_blank'>
 						{text}
