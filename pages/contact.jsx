@@ -39,7 +39,7 @@ export default function Contact() {
 					</Panel>
 					<Panel header='FEHP Board' key='2'>
 						<p>
-							FEHP allows Florida’s nonpublic hospitals to have a
+						    FEHP allows Florida’s nonpublic hospitals to have a
 							collective voice before all levels of government
 							focused on sound Medicaid policy. FEHP represents a
 							broad collection of Florida providers. The members
@@ -64,6 +64,8 @@ export default function Contact() {
 									<span>Tenet |</span>
 								</div>
 								<div>
+									<span> Orlando Health |</span>
+									<span> Tampa General Hospital |</span>
 									<span>UF Health Shands Hospital |</span>
 									<span>Universal Health Services</span>
 								</div>
