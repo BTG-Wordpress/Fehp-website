@@ -12,6 +12,7 @@ const { Panel } = Collapse;
 // ------------------------
 
 export default function Contact() {
+	// test
 	return (
 		<Layout title='Contact Page'>
 			<div
