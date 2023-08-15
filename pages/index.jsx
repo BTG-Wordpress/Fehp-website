@@ -20,7 +20,7 @@ export default function Home() {
 		setShowModal(false);
 	};
 	return (
-		<Layout title='Home Page'>
+		<Layout title='FEHP - Home'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
@@ -36,7 +36,7 @@ export default function Home() {
 				<div className={styles.info_container}>
 					<div className={styles.text_title}>
 						<h3 className='font_nunito_heavy'>
-							FROM THE PRESIDENT
+							READ WHO WE ARE
 						</h3>
 						<div className={styles.span_container}>
 							<span />
@@ -74,14 +74,14 @@ export default function Home() {
 						Florida can continue being a national leader in health
 						care and medical service.
 					</p>
-					<span className='content-text'>
+					{/* <span className='content-text'>
 						Donald Lee, President
 					</span>
 
 					<br />
 					<span className='content-text'>
 						Florida Essential Healthcare Partnerships
-					</span>
+					</span> */}
 					<br />
 					<Link href='/dpp_101'>
 						<a
@@ -161,6 +161,20 @@ export default function Home() {
 							{" "}
 							– Miami’s Community News (09/13/2021)
 						</span>
+					</div>
+					<br />
+					<div>
+						<a
+							href='https://bullpenstrategygroup.box.com/v/fehp-managed-care'
+							target='_blank'
+							className='font_nunito_regular'
+						>
+							Medicaid Managed Care Proposed Rule Comment Letters
+						</a>{" "}
+						{/* <span className='font_nunito_light'>
+							{" "}
+							– Miami’s Community News (09/13/2021)
+						</span> */}
 					</div>
 				</div>
 			</div>

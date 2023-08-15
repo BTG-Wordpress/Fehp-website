@@ -11,7 +11,7 @@ const { Panel } = Collapse;
 
 export default function HospitalMap() {
 	return (
-		<Layout title='Resources'>
+		<Layout title='FEHP - Resources'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 				className={styles.hero_img}
@@ -66,14 +66,14 @@ export default function HospitalMap() {
 							</a>
 						</div>
 					</Panel>
-					<Panel header='FEHP Resources' key='3'>
+					{/* <Panel header='FEHP Resources' key='3'>
 						<h3
 							className={`${styles.sub_title} font_nunito_regular`}
 						>
 							Supplemental Payment Calculator
 						</h3>
 						<Calculator />
-					</Panel>
+					</Panel> */}
 				</Collapse>
 			</div>
 		</Layout>

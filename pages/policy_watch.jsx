@@ -9,7 +9,7 @@ import styles from "../styles/pages/PolicyWatch.module.scss";
 
 export default function HospitalMap() {
 	return (
-		<Layout title='Policy Watch'>
+		<Layout title='FEHP - Policy Watch'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>

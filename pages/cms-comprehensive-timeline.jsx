@@ -9,7 +9,7 @@ import styles from "../styles/pages/cms-comprehensive-timeline.module.scss";
 
 export default function CmsComprehensiveTimeline() {
     return (
-        <Layout title='Cms Comprehensive Timeline'>
+        <Layout title='FEHP - Cms Comprehensive Timeline'>
             <section className={styles.wrap}>
                 <div className={styles.header}>
                     <h1>CMS Comprehensive Timeline</h1>

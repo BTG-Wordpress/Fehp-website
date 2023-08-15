@@ -13,7 +13,7 @@ const { Panel } = Collapse;
 
 export default function Education() {
 	return (
-		<Layout title='Education Page'>
+		<Layout title='FEHP - Education'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>

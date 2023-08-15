@@ -12,7 +12,7 @@ import dpp_img from "../public/dpp.png";
 
 export default function Education() {
 	return (
-		<Layout title='DPP Page'>
+		<Layout title='FEHP - DPP'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
@@ -38,6 +38,7 @@ export default function Education() {
 							Your browser does not support the video tag.
 						</video>
 					</div>
+					<span>Last Updated: 2020</span>
 
 					<h3 className={`${styles.sub_title} font_nunito_regular`}>
 						DPP 101

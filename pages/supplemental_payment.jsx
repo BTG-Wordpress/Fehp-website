@@ -5,7 +5,7 @@ import { Layout, Calculator } from "../src/components/index";
 
 export default function SupplementalPayment() {
 	return (
-		<Layout title='Supplemental Payment 101'>
+		<Layout title='FEHP - Supplemental Payment 101'>
 			{" "}
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}

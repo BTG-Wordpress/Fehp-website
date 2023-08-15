@@ -41,7 +41,7 @@ export async function getStaticProps(context) {
 }
 export default function HospitalMap({ stateData, countiesData }) {
 	return (
-		<Layout title='LPPF 101'>
+		<Layout title='FEHP - LPPF 101'>
 			<div
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
