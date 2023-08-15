@@ -25,7 +25,7 @@ export default function Home() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src='/home.jpeg'
+					src='/home-min.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'
