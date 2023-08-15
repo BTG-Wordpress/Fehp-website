@@ -25,7 +25,7 @@ export default function Home() {
 				style={{ position: "relative", width: "100%", height: "338px" }}
 			>
 				<Image
-					src='https://website-content.nyc3.digitaloceanspaces.com/images/home.jpeg'
+					src='/home.jpeg'
 					alt='hero '
 					layout='fill'
 					objectFit='cover'
@@ -36,7 +36,7 @@ export default function Home() {
 				<div className={styles.info_container}>
 					<div className={styles.text_title}>
 						<h3 className='font_nunito_heavy'>
-							READ WHO WE ARE
+							WHO WE ARE
 						</h3>
 						<div className={styles.span_container}>
 							<span />

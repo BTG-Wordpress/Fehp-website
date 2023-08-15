@@ -40,7 +40,7 @@ export default function Education() {
 					</div>
 					<span>Last Updated: 2020</span>
 
-					<h3 className={`${styles.sub_title} font_nunito_regular`}>
+					<h3 className={`${styles.sub_title} font_nunito_heavy`}>
 						DPP 101
 					</h3>
 				</div>
