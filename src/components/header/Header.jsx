@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Header.module.scss";
 import Image from "next/image";
-import state_img from "../../../public/FEHP_logo.svg";
+import state_img from "../../../public/fehp-new-logo.png";
 import { Sidebar } from "../index";
 import Link from "next/link";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
