@@ -50,26 +50,26 @@ export default function Contact() {
 							className={`${styles.board_container} font_nunito_regular`}
 						>
 							<div>
-								<div>
+								{/* <div> */}
 									<span>Acadia |</span>
 									<span>AdventHealth |</span>
 									<span>Ascension Florida |</span>
 									<span>Baptist Health Jacksonville |</span>
 									<span>Baptist South Florida</span>
-								</div>
-								<div>
-									{" "}
+								{/* </div> */}
+								{/* <div>
+									{" "} */}
 									<span>Community Health Services |</span>
 									<span>Health First |</span>
 									<span>Nicklaus Children's |</span>
 									<span>Tenet |</span>
-								</div>
-								<div>
+								{/* </div>
+								<div> */}
 									<span> Orlando Health |</span>
 									<span> Tampa General Hospital |</span>
 									<span>UF Health Shands Hospital |</span>
 									<span>Universal Health Services</span>
-								</div>
+								{/* </div> */}
 							</div>
 						</div>
 					</Panel>

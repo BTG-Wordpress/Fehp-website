@@ -171,10 +171,10 @@ export default function Home() {
 						>
 							Medicaid Managed Care Proposed Rule Comment Letters
 						</a>{" "}
-						{/* <span className='font_nunito_light'>
+						<span className='font_nunito_light'>
 							{" "}
-							– Miami’s Community News (09/13/2021)
-						</span> */}
+							(July 3, 2023)
+						</span>
 					</div>
 				</div>
 			</div>
