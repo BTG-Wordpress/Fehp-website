@@ -40,7 +40,7 @@ export default function Contact() {
 					</Panel>
 					<Panel header='FEHP Members' key='2'>
 						<p>
-						    FEHP allows Florida’s nonpublic hospitals to have a
+							FEHP allows Florida’s nonpublic hospitals to have a
 							collective voice before all levels of government
 							focused on sound Medicaid policy. FEHP represents a
 							broad collection of Florida providers. The members
@@ -50,26 +50,19 @@ export default function Contact() {
 							className={`${styles.board_container} font_nunito_regular`}
 						>
 							<div>
-								{/* <div> */}
-									<span>Acadia |</span>
-									<span>AdventHealth |</span>
-									<span>Ascension Florida |</span>
-									<span>Baptist Health Jacksonville |</span>
-									<span>Baptist South Florida</span>
-								{/* </div> */}
-								{/* <div>
-									{" "} */}
-									<span>Community Health Services |</span>
-									<span>Health First |</span>
-									<span>Nicklaus Children's |</span>
-									<span>Tenet |</span>
-								{/* </div>
-								<div> */}
-									<span> Orlando Health |</span>
-									<span> Tampa General Hospital |</span>
-									<span>UF Health Shands Hospital |</span>
-									<span>Universal Health Services</span>
-								{/* </div> */}
+								<span>Acadia</span>
+								<span>AdventHealth</span>
+								<span>Ascension Florida</span>
+								<span>Baptist Health Jacksonville</span>
+								<span>Baptist South Florida</span>
+								<span>Community Health Services</span>
+								<span>Health First</span>
+								<span>Nicklaus Children's</span>
+								<span>Tenet</span>
+								<span> Orlando Health</span>
+								<span> Tampa General Hospital</span>
+								<span>UF Health Shands Hospital</span>
+								<span>Universal Health Services</span>
 							</div>
 						</div>
 					</Panel>
