@@ -24,7 +24,7 @@ export default function Footer() {
 					<Link href='/dpp_101'>
 						<a className='font_nunito_regular'>DPP 101</a>
 					</Link>
-					<a className='font_nunito_regular'>News</a>
+					{/* <a className='font_nunito_regular'>News</a> */}
 				</div>
 
 				<div className={styles.footer_sub_container}>
@@ -107,7 +107,7 @@ export default function Footer() {
 						<a className='font_nunito_regular'> About</a>
 					</Link>
 					<Link href='/contact'>
-						<a className='font_nunito_regular'> FEHP Board</a>
+						<a className='font_nunito_regular'> FEHP Members</a>
 					</Link>
 					<Link href='/contact'>
 						<a className='font_nunito_regular'> Contact</a>

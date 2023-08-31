@@ -26,33 +26,17 @@ export default function HospitalMap() {
 				</h1>
 				<div className={styles.info_container}>
 					<div style={{ marginBottom: "6px" }}>
-						<span className='font_nunito_regular'>
-							Florida Tax Watch Medicaid DPP &nbsp;
-						</span>
 						<a
-							href='https://floridataxwatch.org/Research/Full-Library/ArtMID/34407/ArticleID/19046/Addressing-the-Medicaid-Funding-Gap-Through-a-Directed-Payment-Program'
-							target='_blank'
-							className=' font_nunito_regular'
-						>
-							(Click Here to Download)
-						</a>
-						<span className='font_nunito_light'>
-							{" "}
-							&nbsp;(05/27/2021)
-						</span>
-					</div>
-					<div style={{ marginBottom: "6px" }}>
-						<a
-							href='https://www.hernandosun.com/2021/09/06/county-approves-ordinance-taxing-local-hospitals-fill-federal-medicaid-reimbursement-gap/'
+							href='https://communitynewspapers.com/biscayne-bay/local-hospitals-to-receive-additional-funds-to-serve-low-income-residents/'
 							target='_blank'
 							className='font_nunito_regular'
 						>
-							County approves ordinance taxing local hospitals to
-							fill federal Medicaid reimbursement gap{" "}
+							Local hospitals to receive additional funds to serve
+							low income residents
 						</a>{" "}
 						<span className='font_nunito_light'>
 							{" "}
-							– Hernando Sun (09/06/2021)
+							– Miami’s Community News (09/13/2021)
 						</span>
 					</div>
 					<div style={{ marginBottom: "6px" }}>
@@ -70,16 +54,32 @@ export default function HospitalMap() {
 					</div>
 					<div style={{ marginBottom: "6px" }}>
 						<a
-							href='https://communitynewspapers.com/biscayne-bay/local-hospitals-to-receive-additional-funds-to-serve-low-income-residents/'
+							href='https://www.hernandosun.com/2021/09/06/county-approves-ordinance-taxing-local-hospitals-fill-federal-medicaid-reimbursement-gap/'
 							target='_blank'
 							className='font_nunito_regular'
 						>
-							Local hospitals to receive additional funds to serve
-							low income residents
+							County approves ordinance taxing local hospitals to
+							fill federal Medicaid reimbursement gap{" "}
 						</a>{" "}
 						<span className='font_nunito_light'>
 							{" "}
-							– Miami’s Community News (09/13/2021)
+							– Hernando Sun (09/06/2021)
+						</span>
+					</div>
+					<div style={{ marginBottom: "6px" }}>
+						<span className='font_nunito_regular'>
+							Florida Tax Watch Medicaid DPP &nbsp;
+						</span>
+						<a
+							href='https://floridataxwatch.org/Research/Full-Library/ArtMID/34407/ArticleID/19046/Addressing-the-Medicaid-Funding-Gap-Through-a-Directed-Payment-Program'
+							target='_blank'
+							className=' font_nunito_regular'
+						>
+							(Click Here to Download)
+						</a>
+						<span className='font_nunito_light'>
+							{" "}
+							&nbsp;(05/27/2021)
 						</span>
 					</div>
 				</div>

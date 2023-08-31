@@ -103,48 +103,16 @@ export default function Home() {
 					</div>
 
 					<div>
-						<span className='font_nunito_regular'>
-							Florida Tax Watch Medicaid DPP &nbsp;
-						</span>
 						<a
-							href='https://floridataxwatch.org/Research/Full-Library/ArtMID/34407/ArticleID/19046/Addressing-the-Medicaid-Funding-Gap-Through-a-Directed-Payment-Program'
-							target='_blank'
-							className=' font_nunito_regular'
-						>
-							(Click Here to Download)
-						</a>
-						<span className='font_nunito_light'>
-							{" "}
-							&nbsp;(05/27/2021)
-						</span>
-					</div>
-					<br />
-					<div>
-						<a
-							href='https://www.hernandosun.com/2021/09/06/county-approves-ordinance-taxing-local-hospitals-fill-federal-medicaid-reimbursement-gap/'
+							href='https://bullpenstrategygroup.box.com/v/fehp-managed-care'
 							target='_blank'
 							className='font_nunito_regular'
 						>
-							County approves ordinance taxing local hospitals to
-							fill federal Medicaid reimbursement gap{" "}
+							Medicaid Managed Care Proposed Rule Comment Letters
 						</a>{" "}
 						<span className='font_nunito_light'>
 							{" "}
-							– Hernando Sun (09/06/2021)
-						</span>
-					</div>
-					<br />
-					<div>
-						<a
-							href='https://www.miamitodaynews.com/2021/09/07/county-throws-lifeline-to-hospitals-drowning-in-medicaid/#:~:text=Miami%2DDade%20County%20now%20has,take%20effect%20in%20ten%20days'
-							target='_blank'
-							className='font_nunito_regular'
-						>
-							County throws lifeline to hospitals drowning in
-							Medicaid
-						</a>{" "}
-						<span className='font_nunito_light'>
-							– Miami Today (09/07/2021)
+							(July 3, 2023)
 						</span>
 					</div>
 					<br />
@@ -165,15 +133,47 @@ export default function Home() {
 					<br />
 					<div>
 						<a
-							href='https://bullpenstrategygroup.box.com/v/fehp-managed-care'
+							href='https://www.miamitodaynews.com/2021/09/07/county-throws-lifeline-to-hospitals-drowning-in-medicaid/#:~:text=Miami%2DDade%20County%20now%20has,take%20effect%20in%20ten%20days'
 							target='_blank'
 							className='font_nunito_regular'
 						>
-							Medicaid Managed Care Proposed Rule Comment Letters
+							County throws lifeline to hospitals drowning in
+							Medicaid
+						</a>{" "}
+						<span className='font_nunito_light'>
+							– Miami Today (09/07/2021)
+						</span>
+					</div>
+					<br />
+					<div>
+						<a
+							href='https://www.hernandosun.com/2021/09/06/county-approves-ordinance-taxing-local-hospitals-fill-federal-medicaid-reimbursement-gap/'
+							target='_blank'
+							className='font_nunito_regular'
+						>
+							County approves ordinance taxing local hospitals to
+							fill federal Medicaid reimbursement gap{" "}
 						</a>{" "}
 						<span className='font_nunito_light'>
 							{" "}
-							(July 3, 2023)
+							– Hernando Sun (09/06/2021)
+						</span>
+					</div>
+					<br />
+					<div>
+						<span className='font_nunito_regular'>
+							Florida Tax Watch Medicaid DPP &nbsp;
+						</span>
+						<a
+							href='https://floridataxwatch.org/Research/Full-Library/ArtMID/34407/ArticleID/19046/Addressing-the-Medicaid-Funding-Gap-Through-a-Directed-Payment-Program'
+							target='_blank'
+							className=' font_nunito_regular'
+						>
+							(Click Here to Download)
+						</a>
+						<span className='font_nunito_light'>
+							{" "}
+							&nbsp;(05/27/2021)
 						</span>
 					</div>
 				</div>
