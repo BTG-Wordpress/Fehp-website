@@ -25,7 +25,7 @@ export default function HospitalMap() {
 					Policy Watch
 				</h1>
 				<div className={styles.info_container}>
-					<div style={{ marginBottom: "6px" }}>
+					<div style={{ marginBottom: "10px" }}>
 						<a
 							href='https://communitynewspapers.com/biscayne-bay/local-hospitals-to-receive-additional-funds-to-serve-low-income-residents/'
 							target='_blank'
@@ -39,7 +39,7 @@ export default function HospitalMap() {
 							– Miami’s Community News (09/13/2021)
 						</span>
 					</div>
-					<div style={{ marginBottom: "6px" }}>
+					<div style={{ marginBottom: "10px" }}>
 						<a
 							href='https://www.miamitodaynews.com/2021/09/07/county-throws-lifeline-to-hospitals-drowning-in-medicaid/#:~:text=Miami%2DDade%20County%20now%20has,take%20effect%20in%20ten%20days'
 							target='_blank'
@@ -52,7 +52,7 @@ export default function HospitalMap() {
 							– Miami Today (09/07/2021)
 						</span>
 					</div>
-					<div style={{ marginBottom: "6px" }}>
+					<div style={{ marginBottom: "10px" }}>
 						<a
 							href='https://www.hernandosun.com/2021/09/06/county-approves-ordinance-taxing-local-hospitals-fill-federal-medicaid-reimbursement-gap/'
 							target='_blank'
@@ -66,7 +66,7 @@ export default function HospitalMap() {
 							– Hernando Sun (09/06/2021)
 						</span>
 					</div>
-					<div style={{ marginBottom: "6px" }}>
+					<div style={{ marginBottom: "10px" }}>
 						<span className='font_nunito_regular'>
 							Florida Tax Watch Medicaid DPP &nbsp;
 						</span>
